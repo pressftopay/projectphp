@@ -1,0 +1,38 @@
+.contacts,.rekvizits,.address,.workingtime{
+  
+    padding-bottom: 150px;
+    padding-top:25px;
+    font-size:24px ;
+    color:white;
+    text-align: center;
+  }
+  .phone{
+    color:white;
+  }
+  .kk{
+    background-color:black;
+    color:white;
+    text-align: center;
+    padding-bottom: 250px;
+    padding-top:152px;
+  
+  }
+  .form{
+    float: left;
+    margin-left:100px ;
+  }
+  .wrap{
+  
+    padding-left: 50px;
+    display:flex ;
+    flex-wrap: wrap;
+   
+  
+  
+  }
+  .input{
+    width: 250px;
+  }  
+  .uploadfile{
+margin-top: 20px;
+  }

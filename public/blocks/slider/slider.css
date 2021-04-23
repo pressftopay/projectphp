@@ -1,0 +1,17 @@
+.mySlides{
+  border:25px solid black;
+}
+.underslides{
+  margin-top:16px;
+  margin-bottom:16px;
+  padding:0 8px;
+position: absolute;
+ 
+}
+.underslide::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.unders:hover{opacity:0.60}
+.dicsas{ border:5px solid white;  float: left; width:14.285714285714%}

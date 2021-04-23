@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cssproject.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnMj8Xc5_jA0tqVHCoFHCk-2sHt4imItA&callback=initMap&libraries=&v=weekly" defer></script>
+    <script src="project.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 
+</head>
+
+  
+
+<header class="head">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><img class="logo" src="logotip.jpg" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Начало <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutuss">О нас</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#towarsilka">Товары</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#footer">Контакты</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<body>
+
+    
+<div class="main">
+
+  
+    <h1>Aqshat Sauda Uiy</h1>
+    <a href="#aboutuss"><button id="aboutus" type="button" class="btn btn-dark">О нас</button></a>
+</div>
+<div  id="aboutuss"></div>
+<hr>
+
+<div class="aboutuss">
+    <h1 id = "ds">О нас</h1>
+   <p class="textaboutus"> ТОО «Aqshat SU"» является самым крупнейшим производителем фракционного щебня из плотных горных пород  (Диабаз) Берчогурского месторождения Шалкарского района Актюбинской области. 
+    Компания предлагает свою продукцию на взаимовыгодных условиях по всей территории Казахстана, где предусматриваются  гибкая ценовая политика и система скидок. Продажа щебня, а также доставка щебня осуществляется максимально оперативно, с учетом  всех  требований и пожеланий клиентов до места назначения.
+        Качество щебня определяется рядом его свойств: прочностью, дробимостью, морозостойкостью и др. При испытаниях щебень  пригоден по всем назначениям, как наполнитель различных цементобетонов, а также  для всех видов дорожных и строительных  работ.
+    Марка прочности не менее М-1400. Щебень соответствует всем  требованиям безопасности (качества), установленным законодательством.
+    Компания имеет возможность поставки:</p>
+    
+<div class="content">
+  <img class="mySlides" src="slide1.jpg" style="width:100%;">
+  <img class="mySlides" src="slide2.jpg" style="width:100%; display:none">
+  <img class="mySlides" src="slide3.jpg" style="width:100%;display:none">
+  <img class="mySlides" src="slide4.jpg" style="width:100%;display:none">
+  <img class="mySlides" src="slide5.jpg" style="width:100%;display:none">
+  <img class="mySlides" src="slide6.jpg" style="width:100%;display:none">
+  <img class="mySlides" src="slide7.jpg" style="width:100%;display:none">
+
+  <div class="underslide">
+    <div class="dicsas">
+      <img class="unders" src="slide1.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+    
+      </div>
+    <div class="dicsas">  <img class="unders" src="slide2.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+      </div>
+    <div class="dicsas">
+      <img class="unders" src="slide3.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+    </div>
+    <div class="dicsas">
+      <img class="unders" src="slide4.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(4)">
+    </div>
+    <div class="dicsas">
+      <img class="unders" src="slide5.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(5)">
+    </div>
+    <div class="dicsas">
+      <img class="unders" src="slide6.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(6)">
+    </div>
+    <div class="dicsas" id="towarsilka">
+      <img class="unders" src="slide7.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(7)">
+    </div>
+   
+  </div>
+</div>
+</div>
+
+
+
+<hr>
+  
+<div class="towar">
+    <p id="towars">Постовляемые товары</p>
+<div class="ap" data-aos="zoom-in"><img class="avatar" src="https://images.satu.kz/121332236_w640_h640_otsev-0-5-mm.jpg" alt="Фракция 0-5мм"><p class="product">Песок из отсевов дробления для строит.работ II класса фр.0*5</p></div>
+<div class="ap" data-aos="zoom-in"><img class="avatar" src="towar2.jpg" alt="СЩП0-40с1"> <p class="product">Смесь щебеночно-песчанная фракций от 0 до 40 С1</p></div>
+<div class="ap" data-aos="zoom-in"><img class="avatar" src="towar3.jpg" alt="СЩП0-80с4s"><p class="product">Смесь щебеночно-песчанная фракций от 0 до 80 С4</p></div>
+<div class="ap" data-aos="zoom-in"><img class="avatar" src="towar4.jpg" alt=""><p  class="product">Щебень из плотных горных пород фракции от 5 до 10 (кубовидный)</p></div>
+<div class="ap" data-aos="zoom-in"><img class="avatar" src="https://images.kz.prom.st/3097561_w440_h440_scheben-fraktsii-10-20.jpg" alt=""><p class="product">Щебень из плотных горных пород фракции от 5 до 20 (кубовидный)</p></div>
+<div class="ap" data-aos="zoom-in"><img class="avatar" src="towar6.jpg" alt=""><p class="product">Щебень из плотных горных пород фракции от 10 до 20 (кубовидный)</p></div>
+<div class="ap" data-aos="zoom-in"><img class="avatar" src="towar7.jpg" alt=""><p class="product">Щебень из плотных горных пород фракции от 20 до 40</p></div>
+<div class="ap" data-aos="zoom-in"><img class="avatar" src="https://images.satu.kz/3149801_w640_h640_scheben-fraktsii-40-70.jpg" alt=""><p class="product">Щебень из плотных горных пород фракции от 40 до 70</p></div>
+<div class="ap" data-aos="zoom-in" id="contactsilka"><img class="avatar" src="towar9.jpg" alt=""><p class="product">Щебень из плотных горных пород для балластного слоя железнодорожного пути смеси фракций от 25 до 60</p>
+</div>
+</div>
+<div class = "kk"id="footer">
+  <h1 style="text-align: left; margin-left: 300px; margin-bottom: 50px;">Связь с нами</h1>
+  <form class="form">
+    
+    <div class="form-group" >
+      <label for="exampleInputEmail1">Ваш Email адрес</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Еmail">
+    
+    
+      <label for="exampleFormControlTextarea1">Ваше имя</label>
+      <input type="text" class="form-control" placeholder="Имя" aria-label="Имя" aria-describedby="basic-addon1">
+
+      <label for="exampleFormControlTextarea1">Сообщение</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" style="width:530px;"></textarea>
+    </div>
+    <button class="btn btn-outline-light">Отправить</button>
+  </form>
+  <div class="wrap">
+<div class="contacts">
+
+  <h2>Контакты:</h2>
+  <p style="width: 350px;">+7 771 818 66 62</p>
+  <p>akshat.su@mail.ru</p>
+</div>
+<div class="address" >
+  <h2>Адрес:</h2>
+<p style="width: 350px;">Актюбинская область , Шалкарский район , Биршогырский с/о , с. Карабулак , ул. Карабулак 15</p></div>
+
+
+  </div>
+</div>
+<div data-aos="zoom-out" id="map"></div>
+
+</body>
+<script>
+   AOS.init();
+   
+  
+</script>
+</html>
